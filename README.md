@@ -4,7 +4,12 @@ LFIprobe is a Python script that checks whether a given URL is vulnerable to a p
 # Requirements
 LFIprobe requires Python 3.x and the requests library to be installed. You can install requests using pip:
 
-pip install requests
+re: This package provides support for regular expressions.
+time: This package provides time-related functions.
+argparse: This package provides a command-line argument parsing module.
+urllib: This package provides a high-level interface for fetching data from the internet.
+requests: This package provides support for sending HTTP requests using Python.
+os: This package provides support for operating system related functionalities.
 
 
 #Usage
