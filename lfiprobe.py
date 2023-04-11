@@ -67,7 +67,7 @@ try:
             tmp1="...."
             if nort.check(url,payload,tmp,tmp1,args.time_sec):
                 exit(1)
-            if encr.urenc(url,payload_or,tmp_or,tmp1_or,args.time_sec):
+            if encr.urenc(url,payload,tmp,tmp1,args.time_sec):
                 exit(1)
             if nort.check(url,null_payload,tmp,tmp1,args.time_sec):
                 exit(1)
