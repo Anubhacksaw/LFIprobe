@@ -8,6 +8,7 @@ import sys
 import os
 import encr
 import nort
+import subprocess
 try:
     print("""
 ██╗     ███████╗██╗██████╗ ██████╗  ██████╗ ██████╗ ███████╗
