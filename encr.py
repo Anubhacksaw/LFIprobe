@@ -2,6 +2,7 @@ import requests
 import urllib.parse
 import time
 import lastc
+import subprocess
 def urenc(url,payload_or,tmp_or,tmp1_or,s=0):
     for i in range(5):
         payload_or = urllib.parse.quote(payload_or,safe='()')
