@@ -18,7 +18,7 @@ try:
 ███████╗██║     ██║██║     ██║  ██║╚██████╔╝██████╔╝███████╗
 ╚══════╝╚═╝     ╚═╝╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝
 """)                                                           
-    print("\033[31;5mLFIprobe V1.0\033[0m")
+    print("\033[31;5mLFIprobe V1.1\033[0m")
     print("\033[31;5mby Anubhab Mukherjee\033[0m")
 
     parser = argparse.ArgumentParser(description='to start scan on a url: python lfiprobe.py -u your_target_url')
