@@ -12,13 +12,13 @@ requests: This package provides support for sending HTTP requests using Python.
 os: This package provides support for operating system related functionalities.
 
 
-#Usage
+# Usage
 To use LFIprobe, simply run the script and provide a URL as a command-line argument:
 python lfiprobe.py -u/--url http://example.com/?page=about.php
 
-#Additional
+# Additional
 python lfiprobe.py -u/--url http://example.com/?page=about.php --time-sec 5
 this is for wait 5 sec before every requests
 
-#License
+# License
 LFIprobe is released under the MIT License. See LICENSE for more information.
